@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HandyPro Services - Our Work</title>
+    <link rel="stylesheet" href="handy.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <div class="logo">HandyPro Home Services</div>
+        </a>
+        <nav>
+            <a href="services.html">Services</a>
+            <a href="ourwork.html">Our Work</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="requestquote.html">Request Quote</a>
+        </nav>
+    </header>
+    <form class="quote-form" action="#" method="post">
+        <h2>Request a Quote</h2>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone">
+        <label for="service">Service Needed:</label>
+        <select id="service" name="service" required>
+            <option value="">-- Select One --</option>
+            <option value="plumbing">Plumbing</option>
+            <option value="electrical">Electrical</option>
+            <option value="drywall">Drywall</option>
+            <option value="hvac">HVAC</option>
+            <option value="general">General Handyman</option>
+        </select>
+        <label for="details">Describe the Issue:</label>
+        <textarea id="details" name="details" rows="4" required></textarea>
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" name="date">
+        <label for="photos">Upload Photos (optional):</label>
+        <input type="file" id="photos" name="photos">
+        <button type="submit">Submit Request</button>
+    </form>
+    <p></p>
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <h3>HandyPro Home Services</h3>
+                <p>Your trusted partner for reliable home repair and maintenance.</p>
+            </div>
+            <div>
+                <h3>Services</h3>
+                <p>Drywall</p>
+                <p>Electrical</p>
+                <p>Plumbing</p>
+                <p>HVAC</p>
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <p>(555) 555-5555</p>
+                <a href="#" id="copyEmail">info@handypro.com</a>
+                <script>
+                document.getElementById("copyEmail").addEventListener("click", function (e) {
+                    e.preventDefault();
+                    navigator.clipboard.writeText("jbraatz@asu.edu");
+                    alert("Email copied to clipboard!");
+                });
+                </script>
+                <p>123 Main Street, Your City</p>
+            </div>
+            <div>
+                <h3>Connect</h3>
+                <a href="https://www.asu.edu">Facebook</a>
+                <p><a href="https://www.asu.edu">Instagram</a></p>
+                <a href="https://www.asu.edu">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
