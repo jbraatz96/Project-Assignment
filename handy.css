@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #f5f7fa, #e1e9f5);
@@ -227,7 +226,6 @@ background: #005bb5;
     .work-item {
         grid-template-columns: 1fr;
     }
-=======
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #f5f7fa, #e1e9f5);
@@ -456,5 +454,4 @@ background: #005bb5;
     .work-item {
         grid-template-columns: 1fr;
     }
->>>>>>> e6efc41cd2481c63ac5adc15959d2a3c5c797b0f
 }
