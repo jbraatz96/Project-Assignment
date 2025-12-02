@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #f5f7fa, #e1e9f5);
@@ -226,4 +227,234 @@ background: #005bb5;
     .work-item {
         grid-template-columns: 1fr;
     }
+=======
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #e1e9f5);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #1a3d7c;
+}
+
+p {
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(90deg, #4a90e2, #6c63ff);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+.box {
+    background: #ffffff;
+    border: 1px solid #c9d6ff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 3px 10px rgba(76, 102, 255, 0.15);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.image1 {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+.sidebar .box {
+    margin-bottom: 1.5rem;
+}
+
+.related-item {
+    background: #e8efff;
+    border: 1px solid #bcd0ff;
+    padding: 0.8rem;
+    border-radius: 8px;
+    margin-bottom: 0.7rem;
+    color: #1a3d7c;
+    font-weight: 500;
+}
+
+.button-primary {
+    background: linear-gradient(135deg, #6c63ff, #4a90e2);
+    color: white;
+    padding: 0.75rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s ease;
+}
+
+.button-primary:hover {
+    opacity: 0.9;
+}
+
+.button-outline {
+    padding: 0.75rem 1.2rem;
+    border: 2px solid #6c63ff;
+    color: #6c63ff;
+    background: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s ease;
+}
+
+.button-outline:hover {
+    background: #6c63ff;
+    color: white;
+}
+
+.cta-section {
+    background: linear-gradient(135deg, #1b263b, #415a77);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    margin: 3rem auto;
+}
+
+.cta-buttons {
+    margin-top: 1.3rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer {
+    background: #ffffff;
+    padding: 2rem;
+    border-top: 1px solid #ddd;
+}
+
+footer .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.quote-form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.quote-form h2 {
+    margin-bottom: 20px;
+}
+
+.quote-form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.quote-form input,
+.quote-form select,
+.quote-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 5px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.quote-form button {
+    width: 80%;
+    margin: 20px auto 0 auto;
+    padding: 12px;
+    border: none;
+    background: #0073e6;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+}
+
+.quote-form button:hover {
+background: #005bb5;
+}
+.hours-table {
+    display: inline-block;
+}
+
+.hours-table th,
+.hours-table td {
+    padding: 8px 25px;
+    border-bottom: 1px solid #ddd;
+}
+.work-gallery {
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+.work-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.work-item img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.label {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+@media (max-width: 768px) {
+    .work-item {
+        grid-template-columns: 1fr;
+    }
+>>>>>>> e6efc41cd2481c63ac5adc15959d2a3c5c797b0f
 }
